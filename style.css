@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+/*******     container     ********/
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(211, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/*******     big-box    ********/
+
+
+.big-box{
+    height: 480px;
+    width: 90%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/35/97/75/240_F_235977548_7VdfHbxJQ6W1zpEOLcd1piZWPKPVoISm.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+/*******     nav-section     ********/
+
+
+.nav-section{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+
+.logo{
+    height: 70px;
+    width: 200px;
+
+}
+.logo img{
+    height: 70px;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.nav-section ul{
+    list-style: none;
+}
+
+
+.mid-content{
+    height: 70px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 100;
+    
+
+}
+
+.last-content{
+    height: 70px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+.last-content li:nth-child(1){
+    height: 40px;
+    width: 50px;
+    
+}
+.last-content img{
+    height: 30px;
+    width: 25px;
+    padding-top: 13px;
+}
+
+.last-content button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+}
+
+
+
+/*******     middle-box     ********/
+
+
+.middle-box{
+    height: 280px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    justify-content: center;
+    margin-bottom:50px;
+   
+}  
+
+
+
+/*******     text-section     ********/
+
+
+.text-section{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.text-section h1{
+    font-size: 52px;
+    font-weight: 700;
+
+}
+.digit-box ul{
+    list-style: none;
+}
+.text-section span{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+/*******     term-section     ********/
+
+
+.term-section{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 40px;
+    margin-left: 90px;
+
+}    
+.short-term{
+    height: 45px;
+    width: 300px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 90px;
+
+}
+
+.long-term{
+    height: 45px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+.term-section ul{
+    list-style: none;
+}
+
+
+
+
+/*******     item-box     ********/
+
+
+.item-box{
+    height: 85px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 22px;
+    margin-left: 180px;
+
+}  
+.location{
+    height:70px;
+    width: 200px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+} 
+.location h1{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+.location p{
+    color: rgb(185, 182, 182);
+    font-size: 14px;
+    padding-top: 5px;
+}
+.location hr{
+    border: 1px solid rgb(235, 235, 235);
+    width:170px;
+}
+
+.Tenants{
+    height:70px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 10px;
+   
+} 
+.Tenants h1{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.Tenants p{
+    color: rgb(185, 182, 182);
+    font-size: 14px;
+    padding-top: 5px;
+   
+}
+.Tenants hr{
+    border: 1px solid rgb(235, 235, 235);
+    width: 100px;
+}
+
+.start{
+    height:70px;
+    width: 200px;
+    padding-top: 10px;
+
+
+} 
+.start h1{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+.start p{
+    color: rgb(185, 182, 182);
+    font-size: 14px;
+    padding-top: 5px;
+}
+.start hr{
+    border: 1px solid rgb(235, 235, 235);
+    width: 110px;
+}
+
+.end{
+    height:70px;
+    width: 200px;
+    padding-top: 10px;
+
+
+} 
+.end h1{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+.end p{
+    color: rgb(185, 182, 182);
+    font-size: 14px;
+    padding-top: 5px;
+}
+.end hr{
+    border: 1px solid rgb(235, 235, 235);
+    width: 100px;
+}
+.search{
+    height: 50px;
+    width: 80px;
+    background-color:white;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.item-box ul{
+    list-style: none;
+}
+
+
+
+
+/*******     digit-box     ********/
+
+
+
+.digit-box{
+    height: 30px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: 150px;
+
+}   
+.property{
+    height: 30px;
+    width: 100px;
+}
+
+.property li:nth-child(1){
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+.property p{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+.satisfied{
+    height: 30px;
+    width: 100px;
+}
+.satisfied li:nth-child(1){
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+
+.satisfied p{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .container{
+        /* height: 600px; */
+        /* width: 100%; */
+    }
+    .big-box{
+        height: 400px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .nav-section{
+        height: 90px;
+        width: 100%;
+    }
+    .logo{
+        height: 70px;
+        width: 180px;
+    }
+    .logo img{
+        height: 70px;
+        width: 120px;
+    }
+    .mid-content{
+        display: none;
+    }
+    .last-content{
+        height:70px ;
+        width: 170px;
+        font-size: 10px;
+    }
+    .last-content img{
+        height: 30px;
+        width: 25px;
+        margin-left: 20px;
+    }
+    .last-content button{
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+    .middle-box{
+        height: 250px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .text-section h1{
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+    .term-section{
+        height: 40px;
+        width: 300px;
+        margin-right: 140px;
+          display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .short-term{
+        height: 40px;
+        width: 100px;
+        font-size: 9px;
+
+        
+    }
+    
+    .long-term{
+        height: 40px;
+        width: 100px;
+        font-size: 9px;
+    }
+    .item-box{
+        display: none;
+    }
+    .digit-box{
+        height: 100px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 160px;
+        margin-top: 20px;
+        
+    }
+    .property{
+        height: 40px;
+        width: 60px;
+        font-size: 10px;
+    }
+    .property li:first-child{
+        font-size: 20px;
+
+    }
+    .property p{
+        font-size: 10px;
+
+    }
+
+    .satisfied{
+        height: 40px;
+        width: 60px;
+        font-size: 10px;
+    }
+    .satisfied li:first-child{
+        font-size: 20px;
+
+    }
+    .satisfied p{
+        font-size: 10px;
+
+    }
+   
+    
+
+}
